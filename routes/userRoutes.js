@@ -6,6 +6,6 @@ router.route('/').get(getAllUsers).put(toggleBlockUsers)
 
 router.route('/delete').put(deleteUsers)
 
-
+  
 export default router;
 

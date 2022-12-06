@@ -1,11 +1,11 @@
 {
-  "name": "transitionware",
+  "name": "api.revue",
   "version": "1.0.0",
-  "description": "software for transition",
+  "description": "API for revue app",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=production node backend/server",
+    "start": "NODE_ENV=production node server.js",
     "server": "nodemon backend/server"
   },
   "author": "Begzod Safarov",
